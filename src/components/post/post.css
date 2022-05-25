@@ -1,0 +1,57 @@
+.post{
+    width: 385px;
+    margin: 0px 25px 40px 25px;
+
+
+}
+.postImg{
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 7px;
+
+}
+.postInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.postCategory{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    color: rgb(217, 191, 41);
+    line-height: 20p;
+    margin-top: 15;
+    margin-right:10px;
+    cursor: pointer;
+
+}
+.postTitle{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.postDate{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: italic;
+    font-size: 13pxs;
+    color: grey;
+    margin-top:15px;
+
+}
+.postDescription{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 800;
+    color: rgb(236, 173, 11);
+    /* space between two lines */
+    line-height: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    
+
+}

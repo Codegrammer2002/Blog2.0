@@ -1,0 +1,5 @@
+/* This is needed for all the components to display in flex here. */
+.single{
+    display: flex;
+}
+
